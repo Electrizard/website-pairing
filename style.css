@@ -1,0 +1,130 @@
+body{
+    background-color: hsla(209, 96%, 52%, 0.808);
+    color: white;
+}
+
+#title{
+    margin-top: 1em;
+    font-weight: bold;
+    font-size:2em;
+    text-align: center;
+}
+
+
+#subtitle{
+    color: hsla(0, 0%, 100%, 0.733);
+    text-align: center;
+}
+
+
+
+#addDiv, #pairsDiv{
+    background-color: hsla(209, 94%, 70%, 0.808);
+    padding: 20px;
+    width:25%;
+    margin-top: 5em;
+    border-radius: 20px;
+}
+
+
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    
+}
+
+
+#container h1{
+    font-size: 1.5em;
+}
+
+
+input{
+    background-color: hsla(209, 69%, 76%, 0.808);
+    border-radius: 5px;
+    border: 2px;
+    font-size: 1.25em;
+    width:80%;
+    height:2.5em;
+    color:white;
+}
+
+#addButton{
+    background-color: hsla(209, 55%, 48%, 0.808);
+    height:2.5em;
+    border-radius: 5px;
+    width: 15%;
+    font-size: 1.25em;
+    color: white;
+    border: 3px;
+    cursor:pointer;
+}
+
+#namesList{
+    height:15em;
+    overflow-y: auto;
+}
+
+.person{
+    background-color:blue;
+    border-radius: 5px;
+    height: 3em;
+    font-size: 1.25em;
+    margin-top: .5em;
+    padding: 0 0.75em;
+    width: 90%;
+
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.person-btn{
+    color: white;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+}
+
+#numPeopleLabel{
+    background-color: hsla(209, 56%, 41%, 0.808);
+    border-radius: 5px;
+    width: 96%;
+}
+#numPeopleLabel h1{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+#numPeopleLabel p{
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+#createBtn{
+    background-color: hsla(187, 81%, 61%, 0.808);
+    border: none;
+    border-radius: 5px;
+    width: 96%;
+    color: white;
+    height: 2.5em;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+
+.pair{
+    background-color:hsla(209, 73%, 56%, 0.808);
+    border-radius: 5px;
+    padding-top: .1px;
+    padding-bottom: .1px;
+    padding-left: 8px;
+    margin-bottom: 1em;
+}
+
+.pair p{
+    color:rgb(218, 218, 218);
+}

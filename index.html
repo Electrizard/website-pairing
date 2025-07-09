@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lbulle>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Group Pairing App</h1>
+    <p id="subtitle">Pair friends together into groups!</p>
+    <div id="container">
+        <div id="addDiv" class="divBox">
+            <h1>+ Add People</h1>
+            <div>
+                <input id="nameInput" type="text" placeholder="Enter a name...">
+                <button onclick="addPerson()" id="addButton">+</button>
+            </div>
+
+            <div id="namesList">
+                
+            </div>
+
+            <div id="numPeopleLabel">
+                <h1 id="totalPplLabel">Total People: 0</h1>
+                <p id="totalPplSublabel">Add people to start pairing</p>
+            </div>
+
+
+            <button id="createBtn" onclick="createPairs()">Create Random Pairs</button>
+        </div>
+
+
+        <div id="pairsDiv" class="divBox">
+            <h1 id="createdPairs">Created Pairs (0)</h1>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
